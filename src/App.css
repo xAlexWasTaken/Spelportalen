@@ -1,0 +1,148 @@
+/* General font settings */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling for the navbar buttons */
+.Navknapp {
+  border-radius: 10px;
+  background-color: rgb(231, 182, 182);
+  padding: 8px 12px;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 5px;
+}
+
+.Navknapp:hover {
+  background-color: tomato;
+}
+
+/* Theme styles */
+.ljust {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.morkt {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Header styling */
+#title {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Container for articles: allow wrapping so they don't stretch horizontally */
+.artiklar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Styling for each article */
+.artikel {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+  /* Fixed width so they display nicely in a grid */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* If using dark theme, you might want to override the article background */
+.morkt .artikel {
+  background-color: #555;
+}
+
+/* Image styling within each article */
+.artikel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Container for the search input */
+.sok-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sok-container input {
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(231, 182, 182);
+  border-radius: 10px;
+  border: none;
+}
+
+.sok-container input:hover {
+  background-color: tomato;
+}
+
+.sok-container input::placeholder {
+  color: white;
+}
+
+.favorite-button {
+  background-color: rgb(231, 182, 182);
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.favorite-button:hover {
+  background-color: tomato;
+}
+
+.read-more {
+  background-color: rgb(231, 182, 182);
+  color: #000;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.read-more:hover {
+  background-color: tomato;
+}
+
+
+#favTitle {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.konto {
+  background-color: rgb(231, 182, 182);
+  padding: 10px;
+  border: 3px solid #141010;
+  /* Adds a light gray border */
+  border-radius: 8px;
+  width: 300px;
+  /* Fixed width so they display nicely in a grid */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  /* Optional: add margin for spacing between boxes */
+}
+
+.konto:hover {
+  background-color: tomato
+}
